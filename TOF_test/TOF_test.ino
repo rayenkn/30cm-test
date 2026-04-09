@@ -3,10 +3,10 @@
 #include <ToFFilter.h>
 
 #define TCA_ADDR     0x70
-#define CH_TOF_FRONT 1  // add correct channel
-#define CH_TOF_LEFT  2  // add correct channel
-#define CH_TOF_RIGHT 3  // add correct channel
-#define CH_TOF_BACK  4  // add correct channel
+#define CH_TOF_FRONT 1 
+#define CH_TOF_LEFT  2 
+#define CH_TOF_RIGHT 3  
+#define CH_TOF_BACK  4  
 
 Adafruit_VL53L0X tofFront;
 Adafruit_VL53L0X tofLeft;
